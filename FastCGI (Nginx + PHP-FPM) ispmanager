@@ -32,7 +32,7 @@ server {
         try_files $uri =404;
         include fastcgi_params;
     }
-    listen 185.133.40.54:80;
+    listen xxx.xxx.xx.xx:80;
 }
 server {
         ssi on;
@@ -179,5 +179,5 @@ server {
         try_files $uri =404;
         include fastcgi_params;
     }
-    listen 185.133.40.54:443 ssl http2;
+    listen xxx.xxx.xx.xx:443 ssl http2;
 }
